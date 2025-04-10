@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0c8ad60d-0c96-4bb4-8e5e-6aa4de568d52" name="localhost" url="http://localhost/workspace_php\jesicaSalva_PW2_guiaDeEjercicios">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\workspace_php\jesicaSalva_PW2_guiaDeEjercicios" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
