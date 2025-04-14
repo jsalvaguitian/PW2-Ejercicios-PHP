@@ -2,20 +2,23 @@
 function semaforo_a($color)
 {
     if ($color == "rojo") {
-        return "frene";
+        return "Frene";
 
     } else if ($color == "amarillo") {
-        return "precaucion";
+        return "Precaucion";
 
     } else if ($color == "verde") {
-        return "avance";
+        return "Avance";
+
+    } else{
+        return "Estado desconocido";
     }
 }
 
 function semaforo_b($color)
 {
 
-    return ($color == "rojo") ? 'Frene' : (($color == "amarillo") ? 'Precaucion' : (($color == "verde") ? 'Avance' : 'error 404'));
+    return ($color == "rojo") ? 'Frene' : (($color == "amarillo") ? 'Precaucion' : (($color == "verde") ? 'Avance' : 'Estado desconocido'));
 
 }
 
@@ -25,16 +28,16 @@ function semaforo_c($color)
 
     switch ($color) {
         case "rojo":
-            $estado = "frene";
+            $estado = "Frene";
             break;
         case "amarillo":
-            $estado = "precaucion";
+            $estado = "Precaucion";
             break;
         case "verde":
-            $estado = "avance";
+            $estado = "Avance";
             break;
         default:
-            $estado = "error 404";
+            $estado = "Estado desconocido";
             break;
     }
 
